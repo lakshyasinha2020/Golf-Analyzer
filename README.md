@@ -10,7 +10,6 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open [http://localhost:4173](http://localhost:4173).
 
 `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` must be set in `.env.local` for accounts, private video uploads, saved swings, signed URLs, and Supabase leaderboards.
 
