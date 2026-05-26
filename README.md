@@ -52,6 +52,14 @@ npm run start
 
 `npm run start` serves the built `dist/` folder with baseline security headers. For Vercel, `vercel.json` adds the same headers and a single-page-app rewrite. For Netlify, `public/_headers` is copied into the build output.
 
+## GitHub Pages
+
+This project is set up to run from the repository Pages path. The deployed site is published from the `gh-pages` branch and will be available at:
+
+```text
+https://lakshyasinha2020.github.io/Golf-Analyzer/
+```
+
 Before making the app public, set these in your Supabase project dashboard:
 
 - Auth Site URL: your production domain

@@ -4,7 +4,7 @@ import Analyzer from "./pages/Analyzer";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/analyzer" element={<Analyzer />} />
